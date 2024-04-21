@@ -1,0 +1,18 @@
+
+import java.util.*;
+
+public class linkedList{
+	public static void main (String [] args) {
+		LinkedList<String> lan = new LinkedList<>();
+		lan.add("Dilli");
+		lan.add("rolex");
+		lan.add("Eren Yeager");
+		lan.add("Mikasa Ackkermann");
+		lan.add("Armin");
+		System.out.println("Linked List :"+ lan);
+		String removed_element = lan.remove(1);
+		System.out.println("Removed Element is :"+removed_element);
+		System.out.println("Updated Linked List :"+lan);
+		
+	}
+}
